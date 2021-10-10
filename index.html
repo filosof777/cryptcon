@@ -4,12 +4,141 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Cryptcon</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/flexboxgrid.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <section id="hero">
+    <header class="site-header">
+      <div class="header__container container">
+        <div class="header__row row row-m-0 between-xs middle-xs">
+          <a href="index.html">
+            <img class="header__logo" src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/logo.png" alt="logo">
+          </a>
+          <nav class="header-nav">
+            <ul class="nav__list nav__row row-m-0 row middle-xs">
+              <li class="nav__item">
+                <a class="nav__link nav__menu" href="#">home
+                  <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#">Home One</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Home Two</a></li>
+                  </ul> 
+                </a>
+              </li> 
+              <li class="nav__item">
+                <a class="nav__link" href="#">pages
+                  <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Token Sale</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">FAQ</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">404 Page</a></li>
+                  </ul> 
+                </a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">feature</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">roadmap</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">team</a></li>
+              <li class="nav__item nav__item-btn"><a class="nav__btn btn" href="#">sign in</a></li>
+            </ul>
+            <button class="menu__btn" type="checkbox"><i class='menu__icon bx bx-menu'></i></button>
+            <ul class="menu-inner">
+              <li class="inner__item"><a class="inner__link" href="#">home</a></li>
+              <li class="inner__item"><a class="inner__link" href="#">pages</a></li>
+              <li class="inner__item"><a class="inner__link" href="#">feature</a></li>
+              <li class="inner__item"><a class="inner__link" href="#">roadmap</a></li>
+              <li class="inner__item"><a class="inner__link" href="#">team</a></li>
+              <li class="inner__item"><a class="inner__link" href="#">sign in</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="site-hero">
+        <div class="hero__container container">
+          <div class="hero__row row row-m-0 middle-xs">
+            <div class="hero__des col-xs-12 col-sm-6 col-md-6 col-lg-6 center-xs start-sm">
+              <h2 class="hero__title">Invest In <span class="hero__title-blue">Cryptocoin</span> Way To Trade</h2>
+              <p class="hero__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+              <a class="hero__btn btn" href="#">learn more</a>
+            </div>
+            <div class="hero__img col-xs-12 col-sm-6 col-md-6 col-lg-6 center-xs"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <section class="works">
+    <div class="works__container container">
+      <p class="works__subtext center-xs">what is cryptcon</p>
+      <h2 class="works__title center-xs">How it Works</h2>
+      <p class="works__text center-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <div class="works__row row middle-xs">
+        <div class="works__img-sec col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="works-images">
+            <img class="works__img-scale" src="img/work-petern.png" alt="Works">
+            <img class="works__img-rotate" src="img/work-process.png" alt="work-process">
+          </div>
+        </div> 
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <h3 class="work__title">We’ve built a platform to buy and sell shares.</h3>
+          <p class="work__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+          <ul class="work__list">
+            <li class="work__item"><p class="work__subtext">Lorem Ipsum is simply dummy text of the printing and typesetting</p></li>
+            <li class="work__item"><p class="work__subtext">Lorem Ipsum is simply dummy text of the printing and typesetting</p></li>
+            <li class="work__item"><p class="work__subtext">Lorem Ipsum is simply dummy text of the printing and typesetting</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="feature__container container">
+      <p class="feature__subtext works__subtext center-xs">crypticon feature</p>
+      <h2 class="feature__title works__title center-xs">Best Features</h2>
+      <p class="feature__text works__text center-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <ul class="features__list row ">
+        <li class="features__item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="features__img" src="img/feature-1.png" alt="feature">
+          <h3 class="features__title">Safe & Secure</h3>
+          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+        </li>
+        <li class="features__item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="features__img" src="img/feature-2.png" alt="feature">
+          <h3 class="features__title">Early Bonus</h3>
+          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+        </li>
+        <li class="features__item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="features__img" src="img/feature-3.png" alt="feature">
+          <h3 class="features__title">Universal Access</h3>
+          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+        </li>
+        <li class="features__item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="features__img" src="img/feature-4.png" alt="feature">
+          <h3 class="features__title">Secure Storage</h3>
+          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+        </li>
+        <li class="features__item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="features__img" src="img/feature-5.png" alt="feature">
+          <h3 class="features__title">Low Cost</h3>
+          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+        </li>
+        <li class="features__item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="features__img" src="img/feature-6.png" alt="feature">
+          <h3 class="features__title">Several Profit</h3>
+          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+        </li>
+      </ul>
+    </div>
+  </section>
 
   <script src="js/main.js"></script>
 </body>
