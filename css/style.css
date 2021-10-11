@@ -231,16 +231,12 @@ button {
   display: inline-block;
   z-index: -1;
   background-repeat: no-repeat;
-  transition: width 0.4s ease;
+  transition: width 0.2s ease;
 }
 
 .menu__item:hover:before {
-  width: 100%;
-  z-index: -1
-}
-
-.menu__item:hover .menu__link {
-  color: var(--color-fff);
+  width: 10px;
+  z-index: 1;
 }
 
 .nav__item:hover .nav__link {
@@ -405,6 +401,7 @@ button {
 /* works */
 
 .works {
+  overflow: hidden;
   padding: 100px 0;
   background-color: #f2f8fe;
 }
@@ -463,6 +460,10 @@ button {
   display: inline-block;  
 }
 
+.works-images {
+  width: 85%;
+}
+
 .works__img-sec {
   position: relative;
 }
@@ -489,7 +490,7 @@ button {
 
 .works__img-rotate {
   position: relative;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%, 0%) rotateZ(0);
   animation: anim-rotate 15s linear infinite;
 }
@@ -507,8 +508,6 @@ button {
   background-color: #fff;
 }
 
-.features__list {
-}
 .features__item {
   margin-bottom: 80px;
 }
@@ -524,6 +523,95 @@ button {
   color: var(--color-888);
 }
 
+
+/* time */
+
+.time {
+  padding: 100px 0;
+  background-color: #f2f8fe;
+}
+
+.time-sec {
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  border-bottom: 1px dashed #000000;
+}
+
+.circle {
+  position: absolute;
+  top: -12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--color-blue);
+  display: inline-block;
+}
+
+.circle::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--color-blue);
+  display: inline-block;
+}
+
+/* team */
+
+.team__item {
+  padding-bottom: 45px;
+}
+
+.team__img {
+  border: 5px solid var(--color-blue);
+  border-radius: 50%;
+  transition: border 0.4s ease;
+}
+
+.team__img:hover {
+  border-color: var(--color-888);
+}
+
+.team__inner {
+  padding-left: 20px;
+  width: 350px;
+}
+.team__subtitle {
+  font-size: 20px;
+  font-family: var(--font-lato);
+  color: var(--color-blue);
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.team__pretext {
+  font-size: 14px;
+  font-family: var(--font-lato);
+  color: var(--color-888);
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.social__item:not(:last-child) {
+  padding-right: 30px;
+}
+.social__link {
+  font-size: 18px;
+  color: var(--color-888);
+  transition: color 0.4s ease;
+}
+
+.social__link:hover {
+  color: var(--color-blue);
+}
 
 /* media */
 
